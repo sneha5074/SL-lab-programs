@@ -1,0 +1,6 @@
+puts "enter string:"
+s=gets.chomp
+puts "enter no.of times:"
+n=gets.chomp.to_i
+ans=s*n
+puts "final string: #{ans}"
