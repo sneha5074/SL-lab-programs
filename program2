@@ -1,0 +1,7 @@
+puts "enter radius of the circle:"
+r=gets.chomp.to_f
+dia=r*r
+perimeter=2*3.14*r
+puts "perimeter of circle is #{perimeter}"
+area=3.14*dia
+puts "area of circle: #{area}"
